@@ -40,6 +40,12 @@ public partial class Plugin : BaseUnityPlugin
     {
         if (!AutoOpenEnabled.Value || !__result)
             return;
+
+        if (!__instance.Pets.CanSpendPets(__instance._price))
+        {
+            Log.LogInfo("Not enough pets to open chest, skipping auto open");
+            return;
+        }
             
         Log.LogInfo("Detected purchasable chest, starting auto open...");
         
