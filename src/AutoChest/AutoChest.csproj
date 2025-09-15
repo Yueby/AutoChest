@@ -11,6 +11,12 @@
     <Version>0.1.0</Version>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\..\Steam\steamapps\common\BongoCat\BongoCat_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
   <!--
   How to include thunderstore mods as dependencies via nuget
 
