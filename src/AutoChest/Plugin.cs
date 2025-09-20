@@ -33,7 +33,7 @@ public partial class Plugin : BaseUnityPlugin
         // Create configuration options
         AutoOpenEnabled = Config.Bind("AutoChest", "Enabled", true, "Enable automatic chest opening");
         OpenDelay = Config.Bind("AutoChest", "Open Delay", 1f, "Open delay in seconds");
-        TimeAcceleration = Config.Bind("ChestTimerBoost", "Time Acceleration", 2f,
+        TimeAcceleration = Config.Bind("AutoChest", "Time Acceleration", 2f,
             new ConfigDescription("Time acceleration multiplier (1.0 = normal, 2.0 = 2x faster)",
                 new AcceptableValueRange<float>(1.0f, 2.0f)));
 
