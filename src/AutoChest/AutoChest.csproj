@@ -13,7 +13,10 @@
 
   <ItemGroup>
     <Reference Include="Assembly-CSharp">
-      <HintPath>..\..\..\..\..\..\Steam\steamapps\common\BongoCat\BongoCat_Data\Managed\Assembly-CSharp.dll</HintPath>
+      <HintPath>D:\Programs\Steam\steamapps\common\BongoCat\BongoCat_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>D:\Programs\Steam\steamapps\common\BongoCat\BongoCat_Data\Managed\com.rlabrecque.steamworks.net.dll</HintPath>
     </Reference>
   </ItemGroup>
 
